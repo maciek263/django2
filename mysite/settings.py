@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+LOGIN_REDIRECT_URL = '/'
+
 
 # Application definition
 
@@ -119,4 +121,4 @@ except ImportError:
 
 STATICFILES_DIRS = (
 	os.path.join(BASE_DIR, "static"),
-)	
+)

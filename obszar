@@ -15,7 +15,9 @@
                     <File name="blog\templates\blog\post_detail.html" />
                     <File name="blog\templates\blog\post_list.html" />
                     <File name="blog\templates\blog\post_edit.html" />
+                    <File name="blog\templates\blog\post_draft_list.html" />
                 </Folder>
+                <File name="blog\templates\registration\login.html" />
             </Folder>
             <Folder name="__pycache__">
                 <File name="blog\__pycache__\admin.cpython-34.pyc" />
