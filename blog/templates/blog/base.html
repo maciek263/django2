@@ -13,7 +13,8 @@
 			    <a href="{% url 'blog.views.post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
 			    <a href="{% url 'post_draft_list' %}" class="top-menu"><span class="glyphicon glyphicon-edit"></span></a>
           <p class="top-menu">Hello {{ user.username }}
-            <a href="{% url 'django.contrib.auth.views.logout' %}"><span class="glyphicon glyphicon-lock"></span></a>
+            <a href="{% url 'django.contrib.auth.views.logout' %}"><span class="glyphicon glyphicon-lock"></span></a></br>
+            <a href="/admin"><img src="c:/django2/static/image/glyphicons-137-cogwheel" alt="cogwheel">kokpit</span></a>
           </p>
           {% else %}
           <a href="{% url 'django.contrib.auth.views.login' %}" class="top-menu"><span class="glyphicon glyphicon-lock"></span></a>
