@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.utils import timezone
 from .models import Post
-from .forms import PostForm #, CommentForm #po odchaczeniu sypie sie cala strona
+from .forms import PostForm, CommentForm #po odchaczeniu sypie sie cala strona
 from django.contrib.auth.decorators import login_required
 
 # Create your views here.
